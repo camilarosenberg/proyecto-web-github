@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Camilia Rosenberg</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <script src="/assets/javascript/script.js" defer></script>
+    </head>
+    <body class="is-preload homepage">
+        <div id="page-wrapper">
+            <!-- Header -->
+            <div id="header-wrapper">
+                <header id="header" class="container">
+                    <!-- Logo -->
+                    <div id="logo">
+                        <h1><a href="index.html">Proyecto Web</a></h1>
+                        <span>por Camila Rosenberg</span>
+                    </div>
+                </header>
+            </div>
+
+            <!-- Banner -->
+            <div id="banner-wrapper">
+                <div id="banner" class="box container">
+                    <div class="row">
+                        <div class="col-7 col-12-medium">
+                            <h2>Hola, un placer saludarte en mi página explicativa</h2>
+                            <p>Las tecnologías que usa la WEB</p>
+                        </div>
+                        <div class="col-5 col-12-medium">
+                            <ul>
+                                <li><a href="#features-wrapper" class="button large icon solid fa-arrow-circle-right" onclick="mostrarMensaje()">¿Preparados?</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features -->
+            <div id="features-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 col-12-medium">
+                            <!-- Box -->
+                            <section class="box feature">
+                                <a href="#" class="image featured"><img src="images/html-icon.png" alt="" /></a>
+                                <div class="inner">
+                                    <header>
+                                        <h2>HTML</h2>
+                                        <p>Hypertext Markup Language</p>
+                                    </header>
+                                    <p>HTML es el lenguaje de marcado estándar para crear páginas web. Utiliza una estructura jerárquica de etiquetas para organizar y presentar contenido, como texto, imágenes, enlaces, formularios, etc. Uso: Define la estructura básica y el contenido de una página web, permitiendo la creación de enlaces, párrafos, encabezados, listas, y más.</p>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <!-- Box -->
+                            <section class="box feature">
+                                <a href="#" class="image featured"><img src="images/css-icon.png" alt="" /></a>
+                                <div class="inner">
+                                    <header>
+                                        <h2>CSS</h2>
+                                        <p>Cascading Styling Sheet</p>
+                                    </header>
+                                    <p>CSS es un lenguaje de estilo que define cómo se presenta y se visualiza el contenido HTML. Permite aplicar estilos como colores, fuentes, márgenes, y posicionamiento a elementos HTML. Uso: Mejora la apariencia y el diseño de una página web, facilitando la separación entre la estructura (HTML) y el estilo visual (CSS).</p>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <!-- Box -->
+                            <section class="box feature">
+                                <a href="#" class="image featured"><img src="images/js-icon.png" alt="" /></a>
+                                <div class="inner">
+                                    <header>
+                                        <h2>Y finalmente...</h2>
+                                        <p>JavaScript</p>
+                                    </header>
+                                    <p>JavaScript es un lenguaje de programación de alto nivel que se utiliza para agregar interactividad y dinamismo a las páginas web. Puede manipular el contenido, responder a eventos del usuario y comunicarse con el servidor. Uso: Permite crear experiencias interactivas en el lado del cliente, validar formularios, realizar animaciones, y actualizar dinámicamente el contenido de una página web.</p>
+										
+											<button onclick="cambiarColorFondo()">Cambiar Fondo</button>
+								
+								
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<hr>		<!-- ... Tu HTML existente ... -->
+<hr>
+<!-- Sección de Explicación -->
+<div id="explanation-section" class="container">
+    <h2>Construcción de la Página</h2>
+    <p>Esta página web fue construida utilizando tecnologías web estándar, incluyendo HTML, CSS y JavaScript. Aquí hay una breve descripción de cada componente:</p>
+
+    <h3>HTML</h3>
+    <p>El HTML proporciona la estructura básica de la página. Utilizamos etiquetas HTML para organizar y presentar el contenido, como encabezados, párrafos, enlaces y más.</p>
+
+    <!-- Ejemplos de Etiquetas HTML -->
+    <pre>
+        <code>
+            &lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;Título de la Página&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;Mi Página Web&lt;/h1&gt;
+                    &lt;p&gt;¡Hola, mundo!&lt;/p&gt;
+                    &lt;a href="#seccion1"&gt;Enlace a Sección 1&lt;/a&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;
+        </code>
+    </pre>
+
+    <h3>CSS</h3>
+    <p>El CSS se utiliza para dar estilo a la página. Define la apariencia visual, los colores, las fuentes y el diseño general. Facilita la separación entre la estructura (HTML) y el estilo visual.</p>
+
+    <!-- Ejemplos de Propiedades CSS -->
+    <pre>
+        <code>
+            body {
+                font-family: 'Arial', sans-serif;
+                background-color: #f0f0f0;
+                margin: 0;
+                padding: 0;
+            }
+
+            h1 {
+                color: #333;
+                text-align: center;
+            }
+
+            .container {
+                width: 80%;
+                margin: 0 auto;
+            }
+        </code>
+    </pre>
+
+    <h3>JavaScript</h3>
+    <p>JavaScript agrega interactividad a la página. En este caso, hemos creado una función simple que cambia el color de fondo al hacer clic en el botón "Cambiar Fondo" (Si vuelves a tocar el 
+		logotipo al lado de mi nombre , vuelve al color original).</p>
+
+    <!-- Ejemplos de Funciones JavaScript -->
+    <pre>
+        <code>
+
+            function mostrarMensaje() {
+                alert("¡Hola! Esto es JavaScript en acción. ¡Bienvenido!");
+            }
+
+            function ejemploJavaScript() {
+                alert("Este es un ejemplo de una función JavaScript.");
+            }
+        </code>
+    </pre>
+
+</div>
+</div>
+
+<hr>
+<hr>
+
+
+							<!-- Sección de Pasos Lógicos -->
+							<div id="logical-steps-section" class="container">
+								<h2>Pasos Lógicos para Crear y Desplegar el Proyecto</h2>
+
+								<h3>1. Creación del Proyecto</h3>
+								<p>Comencé creando un nuevo directorio en mis documentos para el proyecto. Dentro de este directorio, creé archivos y carpetas necesarios para la estructura del proyecto.</p>
+
+								<h3>2. Configuración del Entorno de Desarrollo</h3>
+								<p>Abrí Visual Studio Code para desarrollar el proyecto. Organizé los archivos para seguir el principio de "Separation of Concerns", colocando HTML, CSS y JavaScript en carpetas separadas.</p>
+
+								<h3>3. Diseño y Estilo</h3>
+								<p>Utilicé imágenes para los logos, que fueron colocadas en la carpeta de imágenes. El CSS y SCSS se utilizaron para dar estilo a la página, mejorando la apariencia y el diseño.</p>
+
+								<h3>4. Desarrollo de la Funcionalidad</h3>
+								<p>Para la funcionalidad interactiva, escribí código JavaScript. Las funciones JavaScript se utilizaron para cambiar el color de fondo.</p>
+
+								<h3>5. Conexión entre Archivos</h3>
+								<p>Enlazé los archivos HTML, CSS y JavaScript para asegurar una integración adecuada. El archivo JavaScript se vincula al HTML para que las funciones puedan ser invocadas desde los elementos de la página.</p>
+
+								<h3>6. Control de Versiones y GitHub</h3>
+								<p>Subí el proyecto a GitHub para el control de versiones.</p>
+
+								<h3>7. Despliegue en GitHub Pages</h3>
+								<p>Finalmente, desplegué el proyecto en GitHub Pages. Esto permite que la página sea accesible en línea para que otros puedan verla y utilizarla.</p>
+
+								<p>Estos son pasos generales y simplificados. Puedes revisar el repositorio en GitHub para obtener detalles más específicos y explorar el código fuente.</p>
+							</div>
+							</div>
+
+							<!-- ... Fin del HTML existente ... -->
+
+
+
+    </body>
+</html>
